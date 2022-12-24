@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(10, 41, 10);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    border :2px solid rgb(11, 113, 11);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    list-style-type: none;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    font-size: larger;
+
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    margin: 23px auto;
+    width: 65vw;
+    border: 2px solid greenyellow;
+    border-radius: 5%;
+    background-image: url('Main\ Cover.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+} 
+
+.songListContainer{
+    margin-top: 20px;
+}
+#S1{
+    margin-left: 5px;
+}
+.songItems span{
+   margin-left: 10px;
+   margin-top: 3px;
+}
+#progressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    bottom: 0%;
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.icons{
+   /* margin-right: 10px; */
+}
+.icons i{
+    cursor: pointer;
+
+}
+
+.songItems span{
+   left: 0%;
+   font-size: smaller;
+
+}
+.songItems{
+    height: 30px;
+    width: 30vw;
+    display: flex;
+    background-color: rgb(11, 113, 11);
+    color: black;
+    border-radius: 15px;
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.songItems img{
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+#buttonstyle{
+    padding: 2px;
+}
+#buttonstyle i{
+    cursor: pointer;
+}
+.songInfo{
+    display: flex;
+    justify-content:last baseline;
+    align-items: center;
+
+    /* position: absolute;
+    left: 2vw; */
+    /* position: absolute;
+    left: 0%; */
+
+   
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s  ease-in;
+    transition
+}
